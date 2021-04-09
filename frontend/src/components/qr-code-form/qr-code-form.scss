@@ -1,0 +1,17 @@
+.error {
+    fieldset {
+        border-color: red !important;
+    }
+    .MuiFormHelperText-root {
+        color: red;
+    }
+}
+.form {
+    form {
+        display: flex;
+        flex-direction: column;
+        & > * {
+            margin-bottom: 20px;
+        }
+    }
+}

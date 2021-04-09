@@ -1,0 +1,12 @@
+@import '~bootstrap/dist/css/bootstrap-grid.min.css';
+
+.app {
+  .header-wrapper {
+    padding-top: 200px;
+  }
+  .qr-code {
+    &-img-wrapper {
+      height: 100%;
+    }
+  }
+}
